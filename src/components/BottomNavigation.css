@@ -1,0 +1,28 @@
+.NavContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--surface-color);
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.NavItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--sub-text-color);
+}
+
+.NavItem.active {
+  color: var(--primary-color);
+}
+
+.NavText {
+  font-size: 0.75em;
+  margin-top: 4px;
+}
