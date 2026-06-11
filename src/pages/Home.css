@@ -1,0 +1,44 @@
+.HomeCardTitle {
+  font-size: 18px;
+  font-weight: 700;
+
+  margin-bottom: 12px;
+}
+
+.HomeSubText {
+  color: var(--sub-text-color);
+  font-size: 14px;
+}
+
+.CardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 6px;
+}
+
+.CardTitle {
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.CardDate {
+  font-size: 16px;
+  color: var(--sub-text-color);
+}
+
+.FilterRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 8px;
+
+  margin-bottom: 12px;
+
+  font-size: 14px;
+  color: var(--sub-text-color);
+}

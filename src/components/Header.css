@@ -1,0 +1,37 @@
+.Header {
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.HeaderTitle {
+  margin: 0;
+
+  font-size: 22px;
+  font-weight: 600;
+
+  color: var(--text-color);
+}
+
+.HeaderActions {
+  display: flex;
+  gap: 12px;
+}
+
+.HeaderButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: none;
+  border: none;
+
+  color: var(--text-color);
+
+  cursor: pointer;
+}

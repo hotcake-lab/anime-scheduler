@@ -8,6 +8,8 @@
 
 main {
   flex-grow: 1;
+
   padding: 0 16px;
-  padding-bottom: 56px; /* BottomNavigationの高さ分 */
+
+  padding-bottom: 72px;
 }
